@@ -12,6 +12,7 @@
   </properties>
 
   <modules>
+    <module>alpha2010</module>
     <module>omega2013</module>
   </modules>
 
