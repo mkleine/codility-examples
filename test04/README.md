@@ -1,0 +1,1 @@
+Given integer K and a non-empty array A, find the number of pairs (i,j) in A such that A[i] + A[j] = K.
