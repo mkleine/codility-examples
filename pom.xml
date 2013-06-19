@@ -22,4 +22,30 @@
     <module>test04</module>
   </modules>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>1.2.1</version>
+          <executions>
+            <execution>
+              <phase>process-classes</phase>
+              <goals>
+                <goal>java</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+            <mainClass>${project.name}</mainClass>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <defaultGoal>
+      process-classes
+    </defaultGoal>
+  </build>
+
 </project>
