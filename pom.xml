@@ -21,6 +21,7 @@
     <module>test02</module>
     <module>test03</module>
     <module>test04</module>
+    <module>test05</module>
   </modules>
 
   <build>
